@@ -9,12 +9,14 @@ int main(){
         printf("While Count: %d\n",count);
         count = count + 1;
     }
+
     printf("--For loop definite--\n");
     for (int i = 1; i <= 100; i = i+1){
         printf("For Count: %d\n",i);
     }
+
     printf("--For loop indefinite--\n");
-    for (int i = 1;;i = i+1){
+    for (int i = 1; ;i = i+1){
         printf("For Count: %d\n",i);
         if (i >= 125){
             break;
