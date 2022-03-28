@@ -30,16 +30,16 @@ void ordering_array(int array[4],int len_array){
 
 int main(){
     int num1;
-    printf("Ingresa el primer numero: ");
+    printf("Enter the first number: ");
     scanf("%d",&num1);
     int num2;
-    printf("Ingresa el segundo numero: ");
+    printf("Enter the second number: ");
     scanf("%d",&num2);
     int num3;
-    printf("Ingresa el tercer numero: ");
+    printf("Enter the third number: ");
     scanf("%d",&num3);
     int num4;
-    printf("Ingresa el cuarto numero: ");
+    printf("Enter the last number: ");
     scanf("%d",&num4);
 
     int array[4] = {num1, num2, num3, num4};
